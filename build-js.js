@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-console.log('Building vietnam-address-database...');
+console.log('Building JavaScript package...');
 
 // Validate address.json exists and is valid JSON
 const addressPath = path.join(__dirname, 'address.json');
@@ -34,7 +34,14 @@ try {
   console.log(`✓ Found ${provinceCount} provinces`);
   console.log(`✓ Found ${wardCount} wards`);
   console.log(`✓ Found ${wardMappingCount} ward mappings`);
-  console.log('✓ Build completed successfully!');
+  
+  // Copy JS README
+  if (fs.existsSync('README-JS.md')) {
+    fs.copyFileSync('README-JS.md', 'README.md');
+    console.log('✓ Copied JavaScript README');
+  }
+  
+  console.log('✓ JavaScript build completed successfully!');
   
 } catch (error) {
   console.error('Error: Invalid JSON in address.json');

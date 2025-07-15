@@ -1,0 +1,60 @@
+{
+    "name": "quangtam/vietnam-address-database",
+    "description": "Raw JSON database for Vietnamese administrative addresses according to Resolution 202/2025/QH15",
+    "type": "library",
+    "keywords": [
+        "vietnam",
+        "address",
+        "database",
+        "provinces",
+        "districts",
+        "wards", 
+        "administrative",
+        "vietnamese",
+        "json",
+        "data"
+    ],
+    "homepage": "https://github.com/quangtam/vietnam-address-database",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quang Tam",
+            "email": "quangtamvu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "VietnamAddressDatabase\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VietnamAddressDatabase\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "php test-php.php",
+        "build": "php build-php.php"
+    },
+    "archive": {
+        "exclude": [
+            "index.js",
+            "index.d.ts", 
+            "package.json",
+            "test.js",
+            "build-js.js",
+            "README-JS.md",
+            "node_modules",
+            ".npm*",
+            "yarn*"
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

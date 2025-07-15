@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "node test.js",
-    "build": "node build.js",
+    "build": "node build-js.js",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -21,11 +21,11 @@
     "json",
     "data"
   ],
-  "author": "Your Name",
+  "author": "Quang Tam",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/vietnam-address-database.git"
+    "url": "https://github.com/quangtam/vietnam-address-database.git"
   },
   "files": [
     "index.js",
