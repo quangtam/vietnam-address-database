@@ -67,6 +67,19 @@ See **[PUBLISHING.md](PUBLISHING.md)** for detailed publishing instructions for 
 
 This database is based on **Resolution 202/2025/QH15** and contains the most up-to-date Vietnamese administrative addresses.
 
+### Primary Sources
+
+- **Data Repository**: [DVHCVN Database](https://github.com/thanhtrungit97/dvhcvn)
+- **Legal Documents**: [Administrative Reorganization Resolutions 2023-2025](https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/72841/tong-hop-nghi-quyet-sap-xep-don-vi-hanh-chinh-cua-63-tinh-thanh-giai-doan-2023-2025)
+
+### Legal Framework
+
+The database integrates administrative changes from:
+
+- **Resolution 202/2025/QH15** (effective July 1, 2025)
+- **Resolution NQ-UBTVQH15** (effective January 1, 2025)
+- **Comprehensive administrative reorganization resolutions for 63 provinces/cities (2023-2025)**
+
 ## License
 
 MIT
