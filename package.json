@@ -1,0 +1,39 @@
+{
+  "name": "vietnam-address-database",
+  "version": "1.0.0",
+  "description": "Raw JSON database for Vietnamese administrative addresses according to Resolution 202/2025/QH15",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js",
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vietnam",
+    "address",
+    "database",
+    "provinces",
+    "districts", 
+    "wards",
+    "administrative",
+    "vietnamese",
+    "json",
+    "data"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vietnam-address-database.git"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "address.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
