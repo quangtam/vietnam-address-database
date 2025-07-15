@@ -4,6 +4,19 @@ Raw JSON database for Vietnamese administrative addresses according to Resolutio
 
 This package provides a PHP library with convenient methods to work with Vietnamese administrative addresses.
 
+## Version 1.0.0 - First Release
+
+✓ **34 Tỉnh/Thành phố** (Provinces/Cities)  
+✓ **3,321 Phường/Xã** (Wards/Communes)  
+✓ **10,977 quy tắc mapping** (Mapping rules)
+
+### Data Sources
+
+This database integrates data from two major administrative updates:
+
+- **Resolution 202/2025/QH15** (effective from July 1, 2025)
+- **Resolution NQ-UBTVQH15** (effective from January 1, 2025)
+
 ## Installation
 
 ```bash

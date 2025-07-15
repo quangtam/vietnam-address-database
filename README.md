@@ -4,6 +4,19 @@ Raw JSON database for Vietnamese administrative addresses according to Resolutio
 
 This repository provides the same database for both **JavaScript/TypeScript** and **PHP** platforms.
 
+## Version 1.0.0 - First Release
+
+✓ **34 Tỉnh/Thành phố** (Provinces/Cities)  
+✓ **3,321 Phường/Xã** (Wards/Communes)  
+✓ **10,977 quy tắc mapping** (Mapping rules)
+
+### Data Sources
+
+This database integrates data from two major administrative updates:
+
+- **Resolution 202/2025/QH15** (effective from July 1, 2025)
+- **Resolution NQ-UBTVQH15** (effective from January 1, 2025)
+
 ## Quick Start
 
 ### JavaScript/TypeScript
@@ -30,9 +43,16 @@ $provinces = VietnamAddressDatabase::getProvinces();
 
 ## Database Statistics
 
-- **34 provinces** (tỉnh/thành phố)
-- **3,321 wards** (phường/xã)
-- **10,977 ward mappings** (ánh xạ mã cũ sang mới theo Resolution 202/2025/QH15)
+- **34 Tỉnh/Thành phố** (Provinces/Cities)  
+- **3,321 Phường/Xã** (Wards/Communes)  
+- **10,977 quy tắc mapping** (ánh xạ mã cũ sang mới)
+
+### Administrative Updates Integration
+
+This database reflects the latest Vietnamese administrative changes from:
+
+- **Resolution 202/2025/QH15** (effective July 1, 2025)
+- **Resolution NQ-UBTVQH15** (effective January 1, 2025)
 
 ## Platform-Specific Documentation
 
